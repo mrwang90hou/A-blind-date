@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92967CD61E8E783300489D3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92967CD51E8E783300489D3B /* AppDelegate.swift */; };
+		92967CD81E8E783300489D3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92967CD71E8E783300489D3B /* ViewController.swift */; };
+		92967CDB1E8E783300489D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92967CD91E8E783300489D3B /* Main.storyboard */; };
+		92967CDE1E8E783300489D3B /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92967CDC1E8E783300489D3B /* ____.xcdatamodeld */; };
+		92967CE01E8E783300489D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92967CDF1E8E783300489D3B /* Assets.xcassets */; };
+		92967CE31E8E783300489D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92967CE11E8E783300489D3B /* LaunchScreen.storyboard */; };
+		92967CEE1E8E783300489D3B /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92967CED1E8E783300489D3B /* ____Tests.swift */; };
+		92967CF91E8E783300489D3B /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92967CF81E8E783300489D3B /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92967CEA1E8E783300489D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92967CCA1E8E783300489D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92967CD11E8E783300489D3B;
+			remoteInfo = "相亲神器";
+		};
+		92967CF51E8E783300489D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92967CCA1E8E783300489D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92967CD11E8E783300489D3B;
+			remoteInfo = "相亲神器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92967CD21E8E783300489D3B /* 相亲神器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "相亲神器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92967CD51E8E783300489D3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92967CD71E8E783300489D3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92967CDA1E8E783300489D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92967CDD1E8E783300489D3B /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
+		92967CDF1E8E783300489D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92967CE21E8E783300489D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92967CE41E8E783300489D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92967CE91E8E783300489D3B /* 相亲神器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "相亲神器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92967CED1E8E783300489D3B /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		92967CEF1E8E783300489D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92967CF41E8E783300489D3B /* 相亲神器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "相亲神器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92967CF81E8E783300489D3B /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		92967CFA1E8E783300489D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92967CCF1E8E783300489D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92967CE61E8E783300489D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92967CF11E8E783300489D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92967CC91E8E783300489D3B = {
+			isa = PBXGroup;
+			children = (
+				92967CD41E8E783300489D3B /* 相亲神器 */,
+				92967CEC1E8E783300489D3B /* 相亲神器Tests */,
+				92967CF71E8E783300489D3B /* 相亲神器UITests */,
+				92967CD31E8E783300489D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92967CD31E8E783300489D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92967CD21E8E783300489D3B /* 相亲神器.app */,
+				92967CE91E8E783300489D3B /* 相亲神器Tests.xctest */,
+				92967CF41E8E783300489D3B /* 相亲神器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92967CD41E8E783300489D3B /* 相亲神器 */ = {
+			isa = PBXGroup;
+			children = (
+				92967CD51E8E783300489D3B /* AppDelegate.swift */,
+				92967CD71E8E783300489D3B /* ViewController.swift */,
+				92967CD91E8E783300489D3B /* Main.storyboard */,
+				92967CDF1E8E783300489D3B /* Assets.xcassets */,
+				92967CE11E8E783300489D3B /* LaunchScreen.storyboard */,
+				92967CE41E8E783300489D3B /* Info.plist */,
+				92967CDC1E8E783300489D3B /* ____.xcdatamodeld */,
+			);
+			path = "相亲神器";
+			sourceTree = "<group>";
+		};
+		92967CEC1E8E783300489D3B /* 相亲神器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92967CED1E8E783300489D3B /* ____Tests.swift */,
+				92967CEF1E8E783300489D3B /* Info.plist */,
+			);
+			path = "相亲神器Tests";
+			sourceTree = "<group>";
+		};
+		92967CF71E8E783300489D3B /* 相亲神器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				92967CF81E8E783300489D3B /* ____UITests.swift */,
+				92967CFA1E8E783300489D3B /* Info.plist */,
+			);
+			path = "相亲神器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92967CD11E8E783300489D3B /* 相亲神器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92967CFD1E8E783300489D3B /* Build configuration list for PBXNativeTarget "相亲神器" */;
+			buildPhases = (
+				92967CCE1E8E783300489D3B /* Sources */,
+				92967CCF1E8E783300489D3B /* Frameworks */,
+				92967CD01E8E783300489D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "相亲神器";
+			productName = "相亲神器";
+			productReference = 92967CD21E8E783300489D3B /* 相亲神器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92967CE81E8E783300489D3B /* 相亲神器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92967D001E8E783300489D3B /* Build configuration list for PBXNativeTarget "相亲神器Tests" */;
+			buildPhases = (
+				92967CE51E8E783300489D3B /* Sources */,
+				92967CE61E8E783300489D3B /* Frameworks */,
+				92967CE71E8E783300489D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92967CEB1E8E783300489D3B /* PBXTargetDependency */,
+			);
+			name = "相亲神器Tests";
+			productName = "相亲神器Tests";
+			productReference = 92967CE91E8E783300489D3B /* 相亲神器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92967CF31E8E783300489D3B /* 相亲神器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92967D031E8E783300489D3B /* Build configuration list for PBXNativeTarget "相亲神器UITests" */;
+			buildPhases = (
+				92967CF01E8E783300489D3B /* Sources */,
+				92967CF11E8E783300489D3B /* Frameworks */,
+				92967CF21E8E783300489D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92967CF61E8E783300489D3B /* PBXTargetDependency */,
+			);
+			name = "相亲神器UITests";
+			productName = "相亲神器UITests";
+			productReference = 92967CF41E8E783300489D3B /* 相亲神器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92967CCA1E8E783300489D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mrwang90hou;
+				TargetAttributes = {
+					92967CD11E8E783300489D3B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3M7MSD7MMC;
+						ProvisioningStyle = Automatic;
+					};
+					92967CE81E8E783300489D3B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3M7MSD7MMC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92967CD11E8E783300489D3B;
+					};
+					92967CF31E8E783300489D3B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3M7MSD7MMC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92967CD11E8E783300489D3B;
+					};
+				};
+			};
+			buildConfigurationList = 92967CCD1E8E783300489D3B /* Build configuration list for PBXProject "相亲神器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92967CC91E8E783300489D3B;
+			productRefGroup = 92967CD31E8E783300489D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92967CD11E8E783300489D3B /* 相亲神器 */,
+				92967CE81E8E783300489D3B /* 相亲神器Tests */,
+				92967CF31E8E783300489D3B /* 相亲神器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92967CD01E8E783300489D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92967CE31E8E783300489D3B /* LaunchScreen.storyboard in Resources */,
+				92967CE01E8E783300489D3B /* Assets.xcassets in Resources */,
+				92967CDB1E8E783300489D3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92967CE71E8E783300489D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92967CF21E8E783300489D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92967CCE1E8E783300489D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92967CD81E8E783300489D3B /* ViewController.swift in Sources */,
+				92967CDE1E8E783300489D3B /* ____.xcdatamodeld in Sources */,
+				92967CD61E8E783300489D3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92967CE51E8E783300489D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92967CEE1E8E783300489D3B /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92967CF01E8E783300489D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92967CF91E8E783300489D3B /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92967CEB1E8E783300489D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92967CD11E8E783300489D3B /* 相亲神器 */;
+			targetProxy = 92967CEA1E8E783300489D3B /* PBXContainerItemProxy */;
+		};
+		92967CF61E8E783300489D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92967CD11E8E783300489D3B /* 相亲神器 */;
+			targetProxy = 92967CF51E8E783300489D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92967CD91E8E783300489D3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92967CDA1E8E783300489D3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92967CE11E8E783300489D3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92967CE21E8E783300489D3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92967CFB1E8E783300489D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92967CFC1E8E783300489D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92967CFE1E8E783300489D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "相亲神器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrwang90hou-163";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92967CFF1E8E783300489D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "相亲神器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrwang90hou-163";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92967D011E8E783300489D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "相亲神器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/相亲神器.app/相亲神器";
+			};
+			name = Debug;
+		};
+		92967D021E8E783300489D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "相亲神器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/相亲神器.app/相亲神器";
+			};
+			name = Release;
+		};
+		92967D041E8E783300489D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "相亲神器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "相亲神器";
+			};
+			name = Debug;
+		};
+		92967D051E8E783300489D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3M7MSD7MMC;
+				INFOPLIST_FILE = "相亲神器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mrwang90hou-163.com.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "相亲神器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92967CCD1E8E783300489D3B /* Build configuration list for PBXProject "相亲神器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92967CFB1E8E783300489D3B /* Debug */,
+				92967CFC1E8E783300489D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92967CFD1E8E783300489D3B /* Build configuration list for PBXNativeTarget "相亲神器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92967CFE1E8E783300489D3B /* Debug */,
+				92967CFF1E8E783300489D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92967D001E8E783300489D3B /* Build configuration list for PBXNativeTarget "相亲神器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92967D011E8E783300489D3B /* Debug */,
+				92967D021E8E783300489D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92967D031E8E783300489D3B /* Build configuration list for PBXNativeTarget "相亲神器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92967D041E8E783300489D3B /* Debug */,
+				92967D051E8E783300489D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92967CDC1E8E783300489D3B /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92967CDD1E8E783300489D3B /* ____.xcdatamodel */,
+			);
+			currentVersion = 92967CDD1E8E783300489D3B /* ____.xcdatamodel */;
+			path = "____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92967CCA1E8E783300489D3B /* Project object */;
+}
